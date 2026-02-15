@@ -74,5 +74,20 @@ l.delete(2)
 l.display()
 print(l.Length())   
     
+#Finding Middle of the Linkedlist
 
+#Reverse a Linkedlist
+def iterative_revrse(head):
+    prev=None
+    current=head
+    while current!=None:
+        next_node=current.next
+        current.next=prev
+        prev=current
+        current=next_node
+    return prev
     
+
+iterative_revrse(l).display()
+
+def recursive_reverse(head):
