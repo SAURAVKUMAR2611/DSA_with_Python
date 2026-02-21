@@ -1,4 +1,4 @@
-# Important Links for the Webinar on Agentic AI and MCP
+### Important Links for the Webinar on Agentic AI and MCP
 
 
 Link for the Accessibility with Free , Max and Pro version:
@@ -9,7 +9,7 @@ https://support.claude.com/en/articles/10168395-setting-up-claude-integrations
 
 Awesome MCP Servers : List of ALL MCP Servers
 
-Google Drive Permission:
+### Google Drive Permission:
 Here's how you can check and fix the Google Drive access permissions for Claude:
 
 **Step 1: Check Connected Apps in Google Account**
@@ -34,7 +34,7 @@ Here's how you can check and fix the Google Drive access permissions for Claude:
 
 This should allow Claude to search and access PDFs stored in your Google Drive. Would you like help with anything else?
 
-# Use of File System Connector:
+### Use of File System Connector:
 
 Great that you have the File System connected! Here's what you can do with it:
 
