@@ -4,8 +4,8 @@
 Link for the Accessibility with Free , Max and Pro version:
 https://support.claude.com/en/articles/10168395-setting-up-claude-integrations
 
-Demo Prompt After connecting with the Vibe Prospector:
-I wanted to check what all companies are their in the lending space in the South American Market and what all they put on table , their average time to go live perform a research on all the top firm in this field and provide me a detailed report.
+### Demo Prompt After connecting with the Vibe Prospector:
+- I wanted to check what all companies are their in the lending space in the South American Market and what all they put on table , their average time to go live perform a research on all the top firm in this field and provide me a detailed report.
 
 Awesome MCP Servers : List of ALL MCP Servers
 
