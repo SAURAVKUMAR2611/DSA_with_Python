@@ -75,6 +75,13 @@ l.display()
 print(l.Length())   
     
 #Finding Middle of the Linkedlist
+def find_middle(head):
+    slow = head
+    fast = head
+    while fast != None and fast.next != None:
+        slow = slow.next
+        fast = fast.next.next
+    return slow.value
 
 #Reverse a Linkedlist
 def iterative_revrse(head):
@@ -91,3 +98,35 @@ def iterative_revrse(head):
 iterative_revrse(l).display()
 
 def recursive_reverse(head):
+    if head==None or head.next==None:
+        return head
+    new_head=recursive_reverse(head.next)
+    head.next.next=head
+    head.next=None
+    return new_head
+
+
+#Detecting a Cycle in a Linkedlist
+def hasCycle(head):
+    visited = set()
+    temp = head
+    while temp != None:
+        if temp in visited:
+            return True 
+        visited.add(temp)
+        temp = temp.next
+    return False
+
+def starting_of_cycle(head):
+    slow = head
+    fast = head
+    while fast !=None and fast.next != None:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            slow = head
+            while slow != fast:
+                slow = slow.next
+                fast = fast.next
+            return slow.value
+    return None
